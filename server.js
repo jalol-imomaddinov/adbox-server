@@ -6,8 +6,6 @@ const mongoose = require("mongoose")
 // objects
 const server = express();
 
-
-
 function connectDb() {
     mongoose.connect(
         DATABASE_URL,
